@@ -1,9 +1,9 @@
 // Solicitar la temperatura en grados Celsius
-const celsius = parseFloat(prompt("Ingrese la temperatura en grados Celsius: "));
+let celsius = parseFloat(prompt("Ingrese la temperatura en grados Celsius: "));
 
 // Convertir a Kelvin y Fahrenheit
-const kelvin = celsius + 273.15;
-const fahrenheit = (celsius * 9 / 5) + 32;
+let kelvin = celsius + 273.15;
+let fahrenheit = (celsius * 9 / 5) + 32;
 
 // Mostrar resultados en el documento
 document.write(`Temperatura en grados Celsius: ${celsius}°C<br>`);
