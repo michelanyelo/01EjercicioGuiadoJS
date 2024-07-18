@@ -1,0 +1,16 @@
+graph TD;
+    A[Inicio] --> B[Ingresar Número 1 (num1)]
+    B --> C[Ingresar Número 2 (num2)]
+    C --> D[Realizar Suma (suma = num1 + num2)]
+    D --> E[Mostrar Resultado de Suma (suma)]
+    E --> F[Realizar Resta (resta = num1 - num2)]
+    F --> G[Mostrar Resultado de Resta (resta)]
+    G --> H[Realizar Multiplicación (multiplicación = num1 * num2)]
+    H --> I[Mostrar Resultado de Multiplicación (multiplicación)]
+    I --> J{¿num2 es distinto de 0?}
+    J -->|Sí| K[Realizar División (división = num1 / num2)]
+    J -->|No| L[Mostrar mensaje de error y terminar]
+    K --> M[Mostrar Resultado de División (división)]
+    M --> N[Realizar Módulo (módulo = num1 % num2)]
+    N --> O[Mostrar Resultado de Módulo (módulo)]
+    O --> P[Fin]
